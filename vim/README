@@ -4,3 +4,5 @@ http://www.equation.com/servlet/equation.cmd?fa=fortran
 
 https://docs.microsoft.com/ru-ru/windows/wsl/install
 
+
+autocmd filetype cpp nnoremap <F5> :w <bar> !g++ -std=c++11 -O2 -Wall % -o %:r && %:r.exe <CR>
