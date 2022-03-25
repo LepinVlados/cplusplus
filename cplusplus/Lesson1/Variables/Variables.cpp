@@ -1,0 +1,14 @@
+#include <iostream>
+int main()
+{
+	//Программа использует переменные и операторы присваивания для вычисления площади прямоугольника
+	//Задаем значения переменных width и length
+	unsigned short int width = 26, length = 40;
+
+	// Результат умножения переменных width и length
+	unsigned short int area = width * length;
+	std::cout << "Width: " << width << std:: endl;
+	std::cout << "Length: " << length << std:: endl;
+	std::cout << "Length * Width = " << area << std:: endl;
+	return 0;
+}
