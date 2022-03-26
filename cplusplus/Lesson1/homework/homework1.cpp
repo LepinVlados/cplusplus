@@ -1,0 +1,18 @@
+#include <iostream>
+int main()
+{
+	auto TOUCH = 6;
+	auto GOAL = 3;
+	auto GOALAFTER = 1;
+	auto SAFETY = 2;
+	auto x = TOUCH + SAFETY;
+	auto y = GOAL + GOALAFTER;
+
+
+	std::cout<< "The first team scored = " << x + y + x + TOUCH << std:: endl;	
+	std::cout<< "The second team scored = "<<SAFETY + x + x + y + x <<std:: endl;
+
+	
+
+	return 0;
+}
